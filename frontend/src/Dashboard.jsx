@@ -5,7 +5,7 @@ const styles = {
   page: {
     minHeight: "100vh",
     padding: "32px 20px 40px",
-    background: "linear-gradient(135deg, #f72585, #b5179e)",
+    background: "linear-gradient(135deg, #ec4899 0%, #db2777 25%, #be185d 50%, #9f1239 75%, #881337 100%)",
     fontFamily:
       'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
     color: "#111827",

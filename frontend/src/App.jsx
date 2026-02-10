@@ -358,7 +358,7 @@ const App = () => {
                 }}
                 className="text-pink font-bold hover:text-pink-200 transition-colors"
               >
-                ← Back to Login
+                Back to Login
               </button>
             </div>
 

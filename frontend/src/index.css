@@ -13,7 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Pink Gradient Background */
+
 .bg-gradient-pink {
   background: linear-gradient(135deg, #0f014f 0%, #0f012a 25%, #180240 50%, #02203e 75%, #1a011d 100%);
   min-height: 100vh;
@@ -41,7 +41,7 @@ body {
   position: absolute;
   opacity: 0.2;
   animation: float 6s ease-in-out infinite;
-  color: #fbcfe8;
+  color: #9bc1f2;
 }
 
 /* Pulse Animation */
@@ -90,7 +90,7 @@ body {
 .circle-btn:hover {
   transform: scale(1.1);
   background: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(137, 178, 192, 0.3);
 }
 
 /* Input Styles */
@@ -113,7 +113,7 @@ input:focus {
   outline: none;
   background: rgba(255, 255, 255, 0.25);
   border: 2px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.3);
+  box-shadow: 0 0 0 3px rgba(193, 61, 250, 0.3);
 }
 
 /* Button Styles */
@@ -133,7 +133,7 @@ button:disabled {
   width: 100%;
   padding: 12px;
   background: white;
-  color: #be185d;
+  color: #060247;
   font-weight: bold;
   font-size: 18px;
   border-radius: 8px;
@@ -141,7 +141,7 @@ button:disabled {
 }
 
 .primary-btn:hover:not(:disabled) {
-  background: #fce7f3;
+  background: #cdaff5;
   transform: scale(1.02);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -179,7 +179,7 @@ button:disabled {
 .justify-center { justify-content: center; }
 .text-center { text-align: center; }
 .text-white { color: white; }
-.text-pink-200 { color: #fbcfe8; }
+.text-pink-200 { color: #0b023c; }
 .rounded-2xl { border-radius: 1rem; }
 .shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); }
 .p-8 { padding: 2rem; }
@@ -220,7 +220,7 @@ button:disabled {
 }
 
 /* Hover Effects */
-.hover\:text-pink-200:hover { color: #fbcfe8; }
+.hover\:text-pink-200:hover { color: #180240; }
 .transition-colors {
   transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -15,7 +15,7 @@ body {
 
 /* Pink Gradient Background */
 .bg-gradient-pink {
-  background: linear-gradient(135deg, #ec4899 0%, #db2777 25%, #be185d 50%, #9f1239 75%, #881337 100%);
+  background: linear-gradient(135deg, #0f014f 0%, #0f012a 25%, #180240 50%, #02203e 75%, #1a011d 100%);
   min-height: 100vh;
   position: relative;
   overflow: hidden;

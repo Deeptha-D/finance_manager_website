@@ -177,35 +177,14 @@ const App = () => {
     case 'home':
       return (
         <div className="min-h-screen bg-gradient-pink relative overflow-hidden">
-          
-          
-
-<FloatingIcon Icon={Coins} delay={0.8} duration={8} startX={14} startY={42} />
-<FloatingIcon Icon={CreditCard} delay={1.2} duration={8.5} startX={86} startY={42} />
-
-<FloatingIcon Icon={PiggyBank} delay={1.6} duration={9} startX={14} startY={68} />
-<FloatingIcon Icon={Wallet} delay={2} duration={9.5} startX={86} startY={68} />
-
-<FloatingIcon Icon={BarChart3} delay={0.6} duration={7.5} startX={34} startY={10} />
-<FloatingIcon Icon={TrendingUp} delay={1.4} duration={8.5} startX={66} startY={10} />
-
-<FloatingIcon Icon={DollarSign} delay={0.7} duration={7.5} startX={34} startY={88} />
-
-<FloatingIcon Icon={PiggyBank} delay={1.5} duration={8.5} startX={66} startY={88} />
-
-<FloatingIcon Icon={BarChart3} delay={0.9} duration={7} startX={40} startY={60} />
-
-<FloatingIcon Icon={CreditCard} delay={0.2} duration={7} startX={8} startY={8} />
-<FloatingIcon Icon={Coins} delay={0.6} duration={7.5} startX={92} startY={8} />
-
-<FloatingIcon Icon={Wallet} delay={1.2} duration={8} startX={8} startY={92} />
-<FloatingIcon Icon={TrendingUp} delay={1.8} duration={8.5} startX={92} startY={92} />
-
-
-
-
-
-
+          <FloatingIcon Icon={CreditCard} delay={0.2} duration={7} startX={12} startY={12} />
+          <FloatingIcon Icon={Coins} delay={0.6} duration={7.5} startX={88} startY={12} />
+          <FloatingIcon Icon={BarChart3} delay={1} duration={8} startX={50} startY={10} />
+          <FloatingIcon Icon={PiggyBank} delay={1.4} duration={8.5} startX={12} startY={88} />
+          <FloatingIcon Icon={Wallet} delay={1.8} duration={9} startX={88} startY={88} />
+          <FloatingIcon Icon={TrendingUp} delay={1.2} duration={8} startX={50} startY={90} />
+          <FloatingIcon Icon={DollarSign} delay={0.9} duration={7.5} startX={22} startY={50} />
+          <FloatingIcon Icon={LineChart} delay={1.6} duration={8} startX={78} startY={50} />
 
           <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4">
             <div className="text-center mb-12 pulse">
@@ -239,8 +218,16 @@ const App = () => {
     case 'login':
       return (
         <div className="min-h-screen bg-gradient-pink flex items-center justify-center px-4 relative overflow-hidden">
-          <FloatingIcon Icon={DollarSign} delay={0} duration={6} startX={10} startY={20} />
-          <FloatingIcon Icon={TrendingUp} delay={1} duration={7} startX={80} startY={70} />
+          <FloatingIcon Icon={CreditCard} delay={0.2} duration={7} startX={12} startY={12} />
+          <FloatingIcon Icon={Coins} delay={0.6} duration={7.5} startX={88} startY={12} />
+          <FloatingIcon Icon={BarChart3} delay={1} duration={8} startX={50} startY={10} />
+          <FloatingIcon Icon={PiggyBank} delay={1.4} duration={8.5} startX={12} startY={88} />
+          <FloatingIcon Icon={Wallet} delay={1.8} duration={9} startX={88} startY={88} />
+          <FloatingIcon Icon={TrendingUp} delay={1.2} duration={8} startX={50} startY={90} />
+          <FloatingIcon Icon={DollarSign} delay={0.9} duration={7.5} startX={22} startY={50} />
+          <FloatingIcon Icon={LineChart} delay={1.6} duration={8} startX={78} startY={50} />
+
+
 
           <div className="glass rounded-2xl shadow-2xl p-8 w-full max-w-md relative z-10">
             <div className="text-center mb-8">
@@ -315,10 +302,17 @@ const App = () => {
     case 'register':
       return (
         <div className="min-h-screen bg-gradient-pink flex items-center justify-center px-4 relative overflow-hidden">
-          <FloatingIcon Icon={PiggyBank} delay={0} duration={6} startX={15} startY={25} />
-          <FloatingIcon Icon={Wallet} delay={1.5} duration={7} startX={85} startY={65} />
+          <FloatingIcon Icon={CreditCard} delay={0.2} duration={7} startX={12} startY={12} />
+          <FloatingIcon Icon={Coins} delay={0.6} duration={7.5} startX={88} startY={12} />
+          <FloatingIcon Icon={BarChart3} delay={1} duration={8} startX={50} startY={10} />
+          <FloatingIcon Icon={PiggyBank} delay={1.4} duration={8.5} startX={12} startY={88} />
+          <FloatingIcon Icon={Wallet} delay={1.8} duration={9} startX={88} startY={88} />
+          <FloatingIcon Icon={TrendingUp} delay={1.2} duration={8} startX={50} startY={90} />
+          <FloatingIcon Icon={DollarSign} delay={0.9} duration={7.5} startX={22} startY={50} />
+          <FloatingIcon Icon={LineChart} delay={1.6} duration={8} startX={78} startY={50} />
 
-          <div className="rounded-2xl shadow-2xl p-8 w-full max-w-md relative z-10 bg-white/10 backdrop-blur-md border border-white/20">
+          
+            <div className="glass rounded-2xl shadow-2xl p-8 w-full max-w-md relative z-10">
             <div className="text-center mb-8">
               <PiggyBank size={48} className="text-white mx-auto mb-4" />
               <h2 className="text-3xl font-bold text-white">Create Account</h2>

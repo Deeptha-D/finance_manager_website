@@ -6,7 +6,17 @@ import UpdateExpenses from './UpdateExpenses';
 import ExpenseSheet from './ExpenseSheet';
 import NotificationsPage from './NotificationsPage';
 import Reports from './Reports';
-import { DollarSign, TrendingUp, PiggyBank, Wallet, AlertCircle } from 'lucide-react';
+import {
+  DollarSign,
+  TrendingUp,
+  PiggyBank,
+  Wallet,
+  Coins,
+  CreditCard,
+  BarChart3,
+  LineChart
+} from 'lucide-react';
+
 
 const App = () => {
   const [page, setPage] = useState('home');
@@ -167,10 +177,35 @@ const App = () => {
     case 'home':
       return (
         <div className="min-h-screen bg-gradient-pink relative overflow-hidden">
-          <FloatingIcon Icon={DollarSign} delay={0} duration={6} startX={10} startY={20} />
-          <FloatingIcon Icon={TrendingUp} delay={1} duration={7} startX={80} startY={30} />
-          <FloatingIcon Icon={PiggyBank} delay={2} duration={8} startX={15} startY={70} />
-          <FloatingIcon Icon={Wallet} delay={0.5} duration={6.5} startX={85} startY={65} />
+          
+          
+
+<FloatingIcon Icon={Coins} delay={0.8} duration={8} startX={14} startY={42} />
+<FloatingIcon Icon={CreditCard} delay={1.2} duration={8.5} startX={86} startY={42} />
+
+<FloatingIcon Icon={PiggyBank} delay={1.6} duration={9} startX={14} startY={68} />
+<FloatingIcon Icon={Wallet} delay={2} duration={9.5} startX={86} startY={68} />
+
+<FloatingIcon Icon={BarChart3} delay={0.6} duration={7.5} startX={34} startY={10} />
+<FloatingIcon Icon={TrendingUp} delay={1.4} duration={8.5} startX={66} startY={10} />
+
+<FloatingIcon Icon={DollarSign} delay={0.7} duration={7.5} startX={34} startY={88} />
+
+<FloatingIcon Icon={PiggyBank} delay={1.5} duration={8.5} startX={66} startY={88} />
+
+<FloatingIcon Icon={BarChart3} delay={0.9} duration={7} startX={40} startY={60} />
+
+<FloatingIcon Icon={CreditCard} delay={0.2} duration={7} startX={8} startY={8} />
+<FloatingIcon Icon={Coins} delay={0.6} duration={7.5} startX={92} startY={8} />
+
+<FloatingIcon Icon={Wallet} delay={1.2} duration={8} startX={8} startY={92} />
+<FloatingIcon Icon={TrendingUp} delay={1.8} duration={8.5} startX={92} startY={92} />
+
+
+
+
+
+
 
           <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4">
             <div className="text-center mb-12 pulse">

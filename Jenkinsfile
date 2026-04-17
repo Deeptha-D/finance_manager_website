@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('Build React App') {
+        stage('Build Frontend') {
             steps {
                 dir('frontend') {
                     sh 'npm run build'
@@ -33,12 +33,5 @@ pipeline {
             }
         }
 
-        stage('Start Backend Server') {
-            steps {
-                dir('backend') {
-                    sh 'npm start'
-                }
-            }
-        }
     }
-}https://github.com/Deeptha-D/finance_manager_website.git
+}

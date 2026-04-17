@@ -2,10 +2,11 @@ pipeline {
     agent any
 
     stages {
+        
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Deeptha-D/finance_manager_website.git'
+                git branch: 'main', url: 'https://github.com/Deeptha-D/finance_manager_website.git'
             }
         }
 
